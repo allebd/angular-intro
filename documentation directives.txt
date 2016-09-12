@@ -1,0 +1,77 @@
+AngularJS Directives
+AngularJS directives used in this tutorial:
+
+Directive	Description	Explained
+ng-app	Defines the root element of an application.	Directives
+ng-bind	Binds the innerHTML of HTML elements to application data.	Introduction
+ng-click	Defines the behavior when an element is clicked.	HTML Events
+ng-controller	Defines the controller object for an application.	Controllers
+ng-disabled	Binds application data to the HTML disabled attribute.	HTML DOM
+ng-hide	Hides or shows HTML elements.	HTML DOM
+ng-include	Includes HTML in an application.	Includes
+ng-init	Defines initial values for an application.	Directives
+ng-model	Binds the value of HTML controls to application data.	Directives
+ng-repeat	Defines a template for each data in a collection.	Directives
+ng-show	Shows or hides HTML elements.	HTML DOM
+AngularJS Filters
+AngularJS filters used in this tutorial:
+
+Filter	Description
+currency	Format a number to a currency format.
+filter	Select a subset of items from an array.
+lowercase	Format a string to lower case.
+orderBy	Orders an array by an expression.
+uppercase	Format a string to upper case.
+Filters are explained in Angular Filters.
+
+AngularJS Events
+AngularJS support the following events:
+
+ng-click
+ng-dbl-click
+ng-mousedown
+ng-moseenter
+ng-mouseleave
+ng-mousemove
+ng-keydown
+ng-keyup
+ng-keypress
+ng-change
+Events are explained in Angular Events.
+
+AngularJS Validation Properties
+$dirty
+$invalid
+$error
+Validation is explained in Angular Validation.
+
+AngularJS Global API
+Converting
+API	Description
+angular.lowercase()	Converts a string to lowercase
+angular.uppercase()	Converts a string to uppercase
+angular.copy()	Creates a deep copy of an object or an array
+angular.forEach()	Executes a function for each element in an object or array
+Comparing
+API	Description
+angular.isArray()	Returns true if the reference is an array
+angular.isDate()	Returns true if the reference is a date
+angular.isDefined()	Returns true if the reference is defined
+angular.isElement()	Returns true if the reference is a DOM element
+angular.isFunction()	Returns true if the reference is a function
+angular.isNumber()	Returns true if the reference is a number
+angular.isObject()	Returns true if the reference is an object
+angular.isString()	Returns true if the reference is a string
+angular.isUndefined()	Returns true if the reference is undefined
+angular.equals()	Returns true if two references are equal
+JSON
+API	Description
+angular.fromJSON()	Deserializes a JSON string
+angular.toJSON()	Serializes a JSON string
+Basic
+API	Description
+angular.bootstrap()	Starts AngularJS manually
+angular.element()	Wraps an HTML element as an jQuery element
+angular.module()	Creates, registers, or retrieves an AngularJS module
+The Global API is explained in Angular API.
+
